@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tablas</title>
+    
+<style type= "text/css">
+    *{
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+        margin:0;
+        padding:0;
+    }
+    
+    h2{
+        background-color: #EC5486;
+        padding: 10px;
+        padding-left: 30px;
+        color:white;
+        text-align: center;
+    }
+    
+    h5{
+        padding:30px;
+    }
+    
+    th{
+        background-color:#F4F354;
+    }
+    
+    table{
+        align-content: center;
+        padding-top: 20px;
+        padding-left: 20px;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    
+    td {
+        /* background-color: #ec5489; */
+        padding: 10px;
+    }    
+
+    th {
+        text-align: left;
+        padding: 10px;
+    }
+    
+    section{
+        background-color: #E2d5d0;
+        width: 1024px;
+        padding-bottom:50px
+    }
+    nav{
+        padding top: 30px;
+        padding-bottom: 30px;
+        background-color: #151723;
+        width: 1024px;
+    }
+    header{
+        width: 984px;
+        padding:20px;
+        background-color: #EC5486;
+        text-align: center;
+        color: #2a2642;
+    }
+    
+    #t01 th{ 
+         background-color:aqua;
+     }
+    
+    #t01 tr:nth-child(odd){
+         background-color: #F8BD68;
+     }
+     
+    #t01 tr:nth-child(even){
+        background-color:#32FF00;
+    }
+        
+    #t01 td:hover{
+        background-color: #88FFB3;
+    }
+    
+    .t02 {
+        background-color:#FFEB69;
+    }
+    header,nav,section{
+        margin: 0 auto;
+    }
+    
+    footer{
+        background-color: #2a2642;
+        margin: 0 auto;
+        width: 1024px;
+        padding top: 70px;
+        padding-bottom: 40px;
+        text-align: center;
+        color:white;
+		font-size:  22px;
+    }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>tablas</h1>
+    </header>
+    <nav></nav>
+    <main>
+         <section>
+            <h2>Tabla simple</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>email</th>
+                        <th>telefono</th>
+                    </tr>   
+                </thead>
+                
+                <tbody>
+                    <tr>
+						<td>Francisco Huerta</td>
+						<td>fr123@gamil.com</td>
+						<td>5519687203</td>
+						</tr>
+						<tr>
+						<td>Gianna Jimenez</td>
+						<td>GJ852@gmail.com</td>
+						<td>6687304190</td>
+						</tr>
+						<tr>
+						<td>Jose Perez</td>
+						<td>JPO862@gmail.com</td>
+						<td>2331094434</td>
+						</tr>
+						<tr>
+						<td>Veronica Lara</td>
+						<td>VL582@gmail.com</td>
+						<td>2586314783</td>
+						</tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section>
+            <h2>Tabla con celda que abarca dos columnas</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th colspan="2">Teléfono</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+					<td>Leticia Lopez</td>
+					<td>5510063987</td>
+					<td>5521833940</td>
+				</tr>
+				<tr>
+					<td>Juan Colosio</td>
+					<td>5534710987</td>
+					<td>1101576307</td>
+				</tr>
+				<tr>
+					<td>Andres Salomon</td>
+					<td>2221094348</td>
+					<td>2583697410</td>
+				</tr>
+                
+                </tbody>
+            </table>
+        </section>
+        
+        <section>
+            <h2>Tabla con modificadores y hover</h2>
+            <table border="1" id="t01">
+                <thead>
+                    <tr>
+                        <th>Disco</th>
+                        <th>Año</th>
+                        <th>calificación</th>
+                    </tr>   
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <tr>
+						<td>Francisco Huerta</td>
+						<td>fr123@gamil.com</td>
+						<td>5519687203</td>
+						</tr>
+						<tr>
+						<td>Gianna Jimenez</td>
+						<td>GJ852@gmail.com</td>
+						<td>6687304190</td>
+						</tr>
+						<tr>
+						<td>Jose Perez</td>
+						<td>JPO862@gmail.com</td>
+						<td>2331094434</td>
+						</tr>
+						<tr>
+						<td>Veronica Lara</td>
+						<td>VL582@gmail.com</td>
+						<td>2586314783</td>
+						</tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <h5>Elaborado por Luis Angel jimenez huerta</h5>
+    </footer>
+    
+</body>
+</html>

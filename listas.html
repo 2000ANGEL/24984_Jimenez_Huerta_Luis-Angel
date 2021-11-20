@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Listas</title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+			}
+			h1{
+				color: #F2B138;
+				font-size: 45px;
+			}
+			h2{
+				color: #353D40;
+				font-size: 34px;
+				line-height: 56px;
+				padding: 17px 17px 17px 0px;
+			}
+			h5{
+				color: #F2B138;
+			}
+			li{
+				font-size: 17px;
+				line-height: 30px;
+				color: #003F63;
+			}
+			dt{
+				color: #FFFFFF;
+				line-height: 34px;
+				font-size: 22px;
+			}
+			header,footer{
+				heing: 100px;
+				padding: 22px;
+				text-align: center;
+				background-color: #003F63;
+			}
+			header,footer, body{
+				width: 1000px;
+				margin: 0 auto;
+			}
+			section{
+				background-color: #A1A5A6;
+				border: solid 8px #353D40;
+				margin: 22px;
+				padding: 34px
+			}
+			body{
+				background-color: #E5E5E5;
+				height: auto;
+			}
+			</style>
+	</head>
+<body>
+	<header>
+		<h1>LISTAS EN HTML</h1>
+	</header>
+	<nav></nav>
+	<main></main>
+	<section>
+	<h2>Lista ordenada o con viñeta</h2>
+		<ul>
+		<li>Libreta profesional</li>
+		<li>Tijeras</li>	
+		<li>Pegamento</li>
+		<li>Colores</li>	
+		<li>100 Hojas blancas</li>	
+		<li>Lapiz No. 2 studio</li>	
+		</ul>
+	</section>
+	<section>
+	<h2>Lista ordenada con viñeta númerada</h2>
+		<ol>
+			<li>Luis</li>
+			<li>Angel</li>
+			<li>Jimenez </li>
+			<li>Huerta</li>
+		</ol>
+	</section>
+	<section>
+	<h2>Lista mixta</h2>
+		<ol>
+			<li>España</li>
+			<li>México
+					<ul>
+						<li>Puebla</li>
+						<li>Veracruz</li>
+						<li>Hidalgo</li>
+					</ul>
+					</li>
+			<li>Argentina</li>
+			<li>Estados Unidos</li>
+			<li>Italia
+					<ol>
+						<li>Roma</li>
+						<li>Florencia</li>
+						<li>Venecia</li>
+					</ol>
+					</li>
+			<li>Francia</li>
+		</ol>
+	</section>
+	<section>
+		<h2>Lista de descripción</h2>
+		<dl>
+		<dt>Usabilidad</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+				dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+				nascetur ridiculus mus.</dd>
+		<dt>Accesibilidad</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+				dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+				nascetur ridiculus mus.</dd>
+		<dt>Interactividad</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+				dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+				nascetur ridiculus mus.</dd>
+		</dl>
+	</section>
+		<section>
+			<h2>Lista con cambio de viñetas</h2>
+			<ol>
+				<li>Mamiferos
+					<ul style="list-style: armenian">
+						<li>Vaca</li>
+						<li>Humano</li>
+						<li>Perros</li>
+					</ul>
+					</li>
+				<li>Reptiles
+					<ul style="list-style: square">
+						<li>Iguana</li>
+						<li>Serpiente</li>
+						<li>Camaleon</li>
+					</ul>
+				</li>
+				<li>Anfibios
+					<ul style="list-style: lower-roman">
+						<li>Rana</li>
+						<li>Salamandra</li>
+					</ul>
+				</li>
+				<li>Felinos
+				<ul style="list-style-image: url("patita.jpg")">
+						<li>León</li>
+						<li>Pantera</li>
+					</ul>
+				</li>
+				<li>Caninos</li>
+				<li>Vertebrados</li>
+			</ol>
+	</section>
+	<footer>
+		<h5>Elaborado por Luis Angel Jimenez Huerta</h5>
+	</footer>
+</body>
+</html>
