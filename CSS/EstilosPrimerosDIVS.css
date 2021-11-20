@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Encabezado {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 35px;
+	color:chocolate;
+	
+	border-style: solid;
+	border-width: 14px;
+	border-color: #000000;
+}
